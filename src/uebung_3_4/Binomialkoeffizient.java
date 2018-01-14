@@ -6,7 +6,7 @@ public class Binomialkoeffizient {
 		// TODO Auto-generated method stub
 		int n = 10;
 		int k = 9;
-		double zaehler =1;
+		double zaehler = 1;
 		double kfakultaet = 1;
 		double nminuskfakultaet = 1;
 		int y = n - k;
@@ -22,7 +22,7 @@ public class Binomialkoeffizient {
 		}
 		double nenner = nminuskfakultaet * kfakultaet;
 		double ergebnis = zaehler / nenner;
-		System.out.println("Das Ergebnis von " + n + " über " + k + " ist " + ergebnis);
-}
+		System.out.println("Das Ergebnis von " + n + " Ã¼ber " + k + " ist " + ergebnis);
+	}
 
 }
